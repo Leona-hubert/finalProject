@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ck krok</title>
+    <link rel="stylesheet" href="turisla.css">
+</head>
+<body>
+    <header>
+            <a href="http://mapy.cz"><img src="zeme.webp"></a>
+            <nav>
+                <ul class="list">
+                    <li><a href="#home">O nás</a></li>
+                    <li><a href="#about">Místo</a></li>
+                    <li><a href="#service">Výlet</a></li>
+                    <li><a href="#pata">Kontakty</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                 <span></span>
+                 <span></span>
+                 <span></span>
+             </div>
+    </header>
+    
+    <div id="nazev">
+        <h1>Cestovní kancelář Krok s.r.o.</h1>
+    </div>
+
+    <div id="obal">
+
+        <div id="obsah">
+        <section id="home">
+            <h2>O nas</h2>
+                <div>
+                    <p>Naše cestovní kancelář má dlouhou historii, své služby poskytuje od roku 2000 do součastnosti.</p>
+                    <p>Zaměřujeme se výhradně na tuzemské cesty a  děláme to velmi dobře, protože 90% našich klientů se k nám vrací a objedná si další výlet.</p>
+                    <p>Dopřejte si také vyjímečný zážitek a vyzkoušejte některý z našich výletů.</p>
+                </div>
+        </section>
+
+        <div id="mezera"></div>
+        <section id="about">
+             <h2>Výběr místa</h2>
+                 <div>
+                    <p>Aby výlet uspokojil vaše představy, nejprve musíte vědět, kam chcete jít. Pokud nevíte, se podívejte na mapu. <br><b>K tomu můžete použít ikonu v levém horním rohu.</b></p> 
+                    <p>Nejlepší je vybrat místo, kde to ještě neznáte, abyste poznali něco nového.</p>  
+                    <p>Nebo naopak vybrat místo, kde to už znáte a víte, že to tam máte rádi.</p>  
+                </div>
+        </section>
+        <div id="mezera"></div>
+        <section id="service">
+             <h2>Cíl výletu</h2>
+                <div>
+                    <p>Vyberte druh výletu dle nabídky níže.</p>
+                    
+                    <dl class="struktura">
+                        <dt> <img src="fotky/rybnik.jpg" alt="voda">K rybníku</dt>
+                        <dd>Můžete se s námi vypravit k rybníku.</dd>
+                        <dd>Do světa klidu, vodního ptactva, třpytu rybích šupin, šustění rákosí a odrazu světa na vodní hladině</dd>
+                    </dl> 
+                    
+                    <dl class="struktura">
+                        <dt> <img src="fotky/buk.jpg" alt="stromy">Do lesa</dt>
+                        <dd>Nebo se s námi můžete vypravit do lesa.</dd>
+                        <dd>Do světa šera a ticha, chráněného korunami stromů před spalujícím sluncem, a plného všelijakých lesních plodů.</dd>
+                    </dl> 
+                    
+                    <dl class="struktura">
+                        <dt> <img src="fotky/vyhled.jpg" alt="kopec">Na kopec</dt> 
+                        <dd>Ale nejkrásnější je výprava na kopec.</dd>
+                        <dd>Odkud je vidět do širého světa kolem. Tento typ výletu je jen pro lidi se zdravými plícemi.</dd>
+                    </dl> 
+                </div>
+
+                <p> <b>A o zbytek už se postaráme my.</b></p>
+        </section>
+        </div>
+
+        <div id="sloupec">
+            
+           <div class="blok">
+            <h3>Vyber kam chces jít</h3>
+            <div class="mezera1"></div>
+        
+            <form id="prvni">
+                <input type="radio" id="kopec" name="vylet[]" value="kopec">
+                <label for="kopec">Na kopec</label>
+                <input type="radio" id="rybnik" name="vylet[]" value="rybnik">
+                <label for="rybnik">K rybniku</label>
+                <input type="radio" id="les" name="vylet[]" value="les">
+                <label for="les">Do lesa</label>
+            </form>
+            </div>
+
+            <div class="mezera1"></div>
+            <div class="blok2">
+             <h3>Vyber délku výletu<h3>
+                <div class="mezera1"></div>
+            <form id="druhy">
+                <input type="radio" id="celodenni" name="doba" value="den">
+                <label for="celodenni">celodenní</label>
+                <input type="radio" id="puldenni" name="doba" value="pulden">
+                <label for="puldenni">půldenní</label>  
+            </form>
+            </div>
+
+            <div class="mezera3"></div>
+            <div class="odkaz">
+            <li><a href="indexdve.html">Přejít k objednávkovému formuláiř</a></li>
+        </div>
+
+        <div id="pata">
+            <p>Těšíme se na setkání. V případě nejasností volejte tel. 111 222 333 nebo pište na
+                <a href="mailto">info@krok.cz</a>
+            </p>
+        </div>
+     </div>
+
+</body>
+</html>

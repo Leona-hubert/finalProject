@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(96, 184, 7);
+    color: white;
+    padding: 40px;
+  }
+  
+.nadpis {
+	font-size: 200%;
+  margin: 20px;
+  padding: 40px;
+  text-align: center;
+  
+	
+  }
+
+  img { 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  nav {
+    margin-left: auto;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  
+  nav ul li a {
+      color: white;
+      font-size: 36px;
+      text-decoration: none;
+      
+  }
+  
+  nav ul li:not(:last-child) {
+      margin-right: 20px;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a:focus {
+      color: #e10f0f
+  }
+  
+  .hamburger {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+      margin-left: auto;
+  }
+  
+  .hamburger span {
+      display: block;
+      width: 35px;
+      height: 5px;
+      background-color: white;
+  }
+  
+  .hamburger span:not(:last-child){
+      margin-bottom: 7px;
+  }
+  nav ul.open {
+      display: flex;
+  }
+  
+  @media (max-width: 760px) {
+      .hamburger{
+          display: flex;
+      }
+  
+      .list {
+          flex-direction: column;
+          display: none;
+          position: absolute;
+          top: 90px;
+          right: 70px;
+          background-color: rgb(114, 62, 62);
+          width: 200px;
+          padding-left: 20px;
+          border-radius: 10px;
+      }
+  
+      nav ul li:not(:last-child) {
+        margin-bottom: 20px;
+    }
+  }
+  
+  #obal {
+    min-width: 500px;
+    max-width: 1400px;
+    margin-left: 10px;
+    margin-right: 10px;
+  
+  }
+
+  h2{
+    font-size: 160%;
+    margin: 2em 0 1em 0;
+    color: hsla(0, 96%, 51%, 0.877);
+    font-family: fantasy;
+  }
+  #nazev {
+    margin: 0;
+    padding: 30px;
+    font-size: 150%;
+    border-bottom: 5px solid red;
+    background: url(icon/seasun.webp) no-repeat right;
+    text-align: center;
+    
+    
+  }
+  #obsah {
+    float: left;
+    width: 70%;
+    line-height: 1.5em;
+    background-color: bisque;
+  }
+  
+  dl.struktura {
+    margin: 15px 0;
+    padding: 15px;
+    border-top: 2px dotted color(srgb red green blue);
+    font-size: larger;
+    font-style: normal;
+    line-height: 1.5em;
+    color: red;
+    font-weight: bolder;
+    
+  }
+
+  dl.struktura dd{
+    font-style: italic;
+    color: black;
+  }
+
+  dl.struktura img {
+    height: 200px;
+    width: 300px;
+    border-radius: 0%;
+    border:  3px solid green;
+    }
+  
+dl.struktura:after {
+    content: ".";
+    height: 0;
+    display: block;
+    clear: both;
+  }
+
+  dl.struktura dt img {
+    float: left;
+    margin: 0 15px 0 0;
+    font-size: larger;
+    line-height: 1.5em;
+    color: red;
+  }
+
+
+  #mezera {
+    height: 10px;
+    padding: 10px;
+  }
+  #panel {
+    float: right;
+    width: 30%;
+    background-color: rgb(234, 234, 66);
+  }
+
+  .mezera1 {
+    height: 20px;
+    margin-top:100px;
+  }
+  .blok h3 {
+    font-size: 130%;
+ 
+  }
+
+  
+  .blok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .blok2 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+.blok2 h3 {
+  float: right;
+}
+  
+#prvni {
+    position: absolute;top: 400px;
+    }
+
+#druhy {
+    position: absolute;top: 650px;
+}
+.mezera3 {
+  height: 150px;
+  text-align: center;
+  
+}
+
+.odkaz {
+  text-align: center;
+  font-size: larger;
+  list-style-type: none;
+}
+  #pata { 
+    margin-top: 30px;
+    padding-top: 20px;
+    height: 60px;
+    clear: both;
+    background-color: #147305;
+    color: white;
+    font-size: larger;
+    text-align: end;
+    
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  form h2 {
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+
+  
+
+  

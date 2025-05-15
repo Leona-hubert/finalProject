@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(229, 177, 73);
+    text-align: center;
+    margin-top: 80px;
+}
+
+.button {
+    margin-top: 40px;
+    background-color: grey;
+    cursor: pointer;
+    
+}
+
+.button:visited{
+    color: aqua;
+    cursor: pointer;
+}
+button:focus {
+    background-color: rgb(0, 255, 132);
+    color: rgb(6, 129, 252);
+    }
+
+    .button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    
+    
+  }
